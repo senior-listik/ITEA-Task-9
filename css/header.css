@@ -1,0 +1,36 @@
+.header {
+    height: 80px;
+    padding: 0 120px;
+    background: var(--secondary-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__nav {
+    width: 253px;
+}
+
+.header__menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.header__menuItem {
+    color: var(--primary-color);
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.header__btn {
+    padding: 11px 18px;
+    color: var(--secondary-color);
+    background: var(--primary-color);
+    border-radius: 6px;
+    font-size: 16px;
+    line-height: 20px;
+    border: none;
+    cursor: pointer;
+}
