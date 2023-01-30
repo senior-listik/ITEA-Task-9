@@ -47,7 +47,7 @@
     background: var(--secondary-color);
     border-radius: 6px;
     font-size: 16px;
-    line-height: 20px;
+    line-height: 1.25;
     border: none;
     cursor: pointer;
     margin-top: 41px;
@@ -72,7 +72,7 @@
 .title__text{
     max-width: 1287px;
     font-size: 96px;
-    line-height: 96px;
+    line-height: 1;
     text-align: center;
     color: var(--secondary-color);
     margin:0 auto 140px;
@@ -103,13 +103,13 @@
 .sleep__title{
     text-align: center;
     font-size: 32px;
-    line-height: 36px;
+    line-height: 1.13;
     color: var(--secondary-color)
 }
 .sleep__text{
     text-align: center;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     margin: 14px auto 30px;
     width: 554px;
 
@@ -129,7 +129,7 @@
 }
 .sleep__listItem h3{
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     margin-top: 12px;
     font-weight: 400;
     color: var(--secondary-color);
@@ -150,14 +150,14 @@
 }
 .escape__title{
     font-size: 32px;
-    line-height: 36px;  
+    line-height: 1.13;  
     color: var(--secondary-color); 
     margin-left: 136px;
     font-weight: 400;   
 }
 .escape__text{
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     color: var(--secondary-color);
     margin: 12px 0 32px 136px;
     max-width: 600px;
@@ -206,7 +206,7 @@
     text-align: center;
     font-weight: 400;
     font-size: 32px;
-    line-height: 36px;
+    line-height: 1.13;
     color: var(--secondary-color);
 
 }
@@ -214,12 +214,11 @@
     text-align: center;
     max-width: 576px;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     color: var(--secondary-color);
     margin: 14px auto 30px;
 }
 .guests__slider{
-    /* width: 1168px; */
     height: 266px;
     margin-left: 136px;
 }
@@ -238,7 +237,7 @@
 .guests__cardItem h4{
     font-weight: 400;
     font-size: 18px;
-    line-height: 24px;
+    line-height: 1.33;
     margin: 10px 0;
 }
 .guests__cardItem p {
@@ -271,17 +270,22 @@
 .invitation{
     padding: 100px 0;
     background: var(--primary-color);
+     
+}
+.invitation__wrapper{
+    margin: 0 auto;
+    max-width: 1168px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 
-    
 }
 .invitation__container{
-    max-width: 1168px;
+    max-width: 552px;
     max-height: 166px;
-    /* margin: 0 auto; */
+    position: relative;
 }
 .invitation__grid{
+    max-width: 552px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -289,7 +293,31 @@
 }
 .invitation__gridItem{
     display: flex;
+    height: 67px;
 }
 .invitation__gridItem p{
-    margin-left: 10px;
+    margin-left: 16px;
+}
+.invitation__title{
+    margin-top: 38px;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 1.12;
+    color: var(--secondary-color);
+}
+.invitation__text{
+    color: var(--secondary-color);
+    margin-top: 14px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.invitation__container::before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 8px;
+    width: 48px;
+    background: var(--line-color);
 }
