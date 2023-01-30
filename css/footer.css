@@ -1,0 +1,33 @@
+.footer{
+    padding: 100px 0;
+    background: var(--secondary-color);
+}
+.footer__wrapper{
+    max-width: 1168px;
+    margin: 0 auto;
+}
+.footer__logo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.footer__social{
+    min-width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer__logo img{
+    margin-top: 48px;
+}
+.footer__logo p{
+    margin: 20px 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--primary-color)
+}
+.footer__logo a, .footer__contacts{
+    color: var(--primary-color);
+    font-style: normal;
+}
