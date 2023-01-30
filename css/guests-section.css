@@ -89,3 +89,6 @@
     border-radius: 30px;
     cursor: pointer;
 }
+.guests__cardItem svg{
+    color: var(--secondary-color);
+}
