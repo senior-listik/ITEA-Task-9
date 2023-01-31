@@ -1,9 +1,11 @@
 .invitation {
-    padding: 100px 0;
+    padding-bottom: 100px;
     background: var(--primary-color);
 
 }
-
+.invitation img{
+    margin-bottom: 100px;
+}
 .invitation__wrapper {
     margin: 0 auto;
     max-width: 1168px;
